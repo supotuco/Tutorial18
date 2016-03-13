@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="#000000"
+    >
+
+    <ImageView
+        android:id="@+id/image_view_movie_poster"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/img_avengers"
+
+        />
+
+    <TextView
+        android:id="@+id/text_view_movie_title"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:layout_toRightOf="@id/image_view_movie_poster"
+        android:text="Movie Title"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+
+        />
+
+    <TextView
+        android:id="@+id/text_view_movie_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:layout_toRightOf="@id/text_view_movie_title"
+        android:text="Rating: 10/10"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#FFFFFF"
+        android:layout_below="@id/text_view_movie_title"
+        >
+
+    </View>
+
+</RelativeLayout>

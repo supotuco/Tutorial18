@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Top Movie Titles</string>
+    <string-array name="movie_titles">
+        <item>The Avengers</item>
+        <item>The Dark Knight</item>
+        <item>Jurassic Park</item>
+
+    </string-array>
+
+    <string-array name="movie_ratings">
+        <item>Rating: 10/10</item>
+        <item>Rating: 9/10</item>
+        <item>Rating: 8/10</item>
+
+    </string-array>
+    
+</resources>
